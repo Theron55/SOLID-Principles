@@ -1,5 +1,3 @@
-package OCP;
-
 public class OCPFixed {
     public static void main(String[] args) {
         Shape circle = new Circle(5);
@@ -44,4 +42,3 @@ class AreaCalculator {
         return shape.calculateArea();
     }
 }
-

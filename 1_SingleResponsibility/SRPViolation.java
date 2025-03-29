@@ -1,5 +1,3 @@
-package SRP;
-
 public class SRPViolation {
     public static void main(String[] args) {
         Report report = new Report("This is a test report.");

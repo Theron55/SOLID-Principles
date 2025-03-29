@@ -1,5 +1,3 @@
-package ISP;
-
 public class ISPViolation {
     public static void main(String[] args) {
         Worker human = new HumanWorker();
@@ -9,12 +7,13 @@ public class ISPViolation {
         human.eat();
 
         robot.work();
-        robot.eat();  // ⚠️ This makes no sense for a robot!
+        robot.eat();
     }
 }
 
 interface Worker {
     void work();
+
     void eat();
 }
 
@@ -33,3 +32,4 @@ class RobotWorker implements Worker {
         System.out.println("Robot is working.");
     }
 
+}

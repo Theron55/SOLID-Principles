@@ -1,5 +1,3 @@
-package OCP;
-
 public class OCPViolation {
     public static void main(String[] args) {
         Shape circle = new Shape("circle", 5);
@@ -32,4 +30,3 @@ class AreaCalculator {
         }
     }
 }
-

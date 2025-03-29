@@ -1,5 +1,3 @@
-package ISP;
-
 public class ISPFixed {
     public static void main(String[] args) {
         Workable human = new HumanWorker();
@@ -11,7 +9,6 @@ public class ISPFixed {
         humanEater.eat();
 
         robot.work();
-        // robot doesn't need to eat, and doesn't have to implement eat()
     }
 }
 
@@ -38,4 +35,3 @@ class RobotWorker implements Workable {
         System.out.println("Robot is working.");
     }
 }
-

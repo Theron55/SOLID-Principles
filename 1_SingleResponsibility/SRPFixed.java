@@ -1,5 +1,3 @@
-package SRP;
-
 public class SRPFixed {
     public static void main(String[] args) {
         Report report = new Report("This is a test report.");
@@ -32,7 +30,5 @@ class ReportPrinter {
 class ReportSaver {
     public void saveToFile(Report report, String filename) {
         System.out.println("Saving report to file: " + filename);
-        // Imagine file-saving logic here
     }
 }
-

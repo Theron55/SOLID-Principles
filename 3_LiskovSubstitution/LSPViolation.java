@@ -1,9 +1,7 @@
-package LSP;
-
 public class LSPViolation {
     public static void main(String[] args) {
         Bird bird = new Ostrich();
-        makeBirdFly(bird);  // 💥 This will throw an exception!
+        makeBirdFly(bird);
     }
 
     public static void makeBirdFly(Bird bird) {
@@ -23,4 +21,3 @@ class Ostrich extends Bird {
         throw new UnsupportedOperationException("Ostriches can't fly!");
     }
 }
-

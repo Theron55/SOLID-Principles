@@ -1,5 +1,3 @@
-package DIP;
-
 public class DIPFixed {
     public static void main(String[] args) {
         Database db = new MySQLDatabase(); // Inject dependency via abstraction
@@ -29,4 +27,3 @@ class App {
         db.save(data);
     }
 }
-
