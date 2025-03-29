@@ -4,6 +4,8 @@ This project demonstrates each of the five SOLID design principles in Java, incl
 
 - A violation example that shows how the principle is broken
 - A corrected version that follows the principle properly
+- A report that addresses each principle and the fix with an explanation.
+
 
 ## Structure
 
